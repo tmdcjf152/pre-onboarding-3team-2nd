@@ -18,6 +18,7 @@ const StyledSensor = styled.div`
   margin-left: 20%;
   padding: 10px;
   background-image: url('https://cdn.pixabay.com/photo/2019/07/19/12/06/network-4348668_1280.png');
+  background-size: cover;
   .sensor-inner-box {
     width: 100%;
     height: 100%;

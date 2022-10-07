@@ -111,6 +111,8 @@ const NavBlock = styled.header`
           }
         }
         .export-btn {
+          position: absolute;
+          bottom: 50px;
           width: 150px;
           height: 40px;
           font: bold 20px/1 'Pacifico';
@@ -163,7 +165,6 @@ const NavBlock = styled.header`
           }
         }
         .export-btn {
-          display: none;
           justify-content: center;
           align-items: center;
           width: 200px;
