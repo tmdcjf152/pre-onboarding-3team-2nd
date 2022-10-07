@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import { blue, pearl } from '../../theme';
 import { AiOutlineMenu } from 'react-icons/ai';
 
+// #7B9ACC (파란색)
+// #FCF6F5 (진주색)
+
 const Nav = () => {
   return (
     <NavBlock>
@@ -39,12 +42,10 @@ const NavBlock = styled.header`
     left: 0;
     width: 20%;
     height: 100vh;
-    background: ${blue};
     /* 로고영역박스 */
     .header-logo-box {
       width: 100%;
       height: 150px;
-      background: ${pearl};
       .logo-title {
         display: flex;
         justify-content: center;
@@ -73,7 +74,7 @@ const NavBlock = styled.header`
           width: 100%;
           height: 100%;
           font: 25px/1 'apple';
-          color: ${pearl};
+          color: ${blue};
         }
       }
       .export-btn {
@@ -82,17 +83,11 @@ const NavBlock = styled.header`
         align-items: center;
         width: 200px;
         height: 50px;
-        background: ${pearl};
+        background: ${blue};
         border-radius: 50px;
         font: bold 25px/1 'Pacifico';
-        color: ${blue};
-        transition: all 0.5s;
+        color: ${pearl};
         cursor: pointer;
-        &:hover {
-          border: 2px solid ${pearl};
-          background: ${blue};
-          color: ${pearl};
-        }
       }
     }
   }
@@ -125,6 +120,7 @@ const NavBlock = styled.header`
   }
   @media screen and (max-width: 890px) {
     .header-inner-box {
+      position: unset;
       top: 0;
       left: 0;
       width: 100%;

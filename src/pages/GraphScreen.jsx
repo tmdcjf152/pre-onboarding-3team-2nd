@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Nav from '../components/nav/Nav';
 import { blue, pearl } from '../theme';
 
+
 const GraphScreen = () => {
   return (
     <>
@@ -20,11 +21,13 @@ const StyledGraphScreen = styled.div`
   height: 100vh;
   margin-left: 20%;
   padding: 10px;
+  background-image: url('https://cdn.pixabay.com/photo/2019/07/19/12/06/network-4348668_1280.png');
   .graph-inner-box {
     width: 100%;
     height: 100%;
     padding: 20px;
     border: 3px solid ${blue};
+    background-color: #ffffffd5;
   }
 
   /* ============= ======= 1024px ============ ======== */
