@@ -1,4 +1,5 @@
 {
+  "homepage": "https://poylib.github.io/Poylib/pre-onboarding-3team-2nd",
   "name": "pre-onboarding-3team-2nd",
   "private": true,
   "version": "0.0.0",
@@ -6,15 +7,27 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@nivo/core": "^0.80.0",
+    "@nivo/line": "^0.80.0",
+    "@popperjs/core": "^2.11.6",
     "axios": "^1.1.0",
+    "date-fns": "^2.29.3",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-csv": "^2.2.2",
+    "react-datepicker": "^4.8.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^6.4.2",
+    "react-tooltip": "^4.2.21",
+    "save": "^2.9.0",
     "styled-components": "^5.3.6",
     "styled-reset": "^4.4.2"
   },
@@ -22,6 +35,7 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+    "gh-pages": "^4.0.0",
     "vite": "^3.1.0"
   }
 }
