@@ -92,7 +92,7 @@ npm run dev
 
 # 기능 분담
 
-> 구현 - [그래프페이지] 그래프UI, 좌표 클릭시 해당 시간대 그래프 출력
+> 구현 - [그래프페이지] 그래프UI, 좌표 클릭시 해당 시간대 그래프 출력, 해당 데이터 csv로 export
 
 > 박찬영 - [리스트페이지] 리스트UI, 카테고리별 필터링(오름차순,내림차순)
 
@@ -100,7 +100,7 @@ npm run dev
 
 > 이유나 - [그래프페이지] 달력 UI, 달력 날짜 지정시 해당 날짜 그래프 출력
 
-> 최승철 - [전체페이지] 레이아웃 및 반응형
+> 최승철 - [전체페이지] Nav UI, 해당 카테고리로 이동, 레이아웃 및 반응형
 
 <br/>
 
@@ -126,19 +126,26 @@ npm run dev
 
 ## ✅ 그래프 UI구현
 
-![그래프UI](https://user-images.githubusercontent.com/87900492/194771189-cc9742a1-98a7-4c5c-8b39-18d6010727ce.png)
+![그래프UI](https://user-images.githubusercontent.com/94745558/194778718-c35ef686-6479-459d-a840-4e0df6da2d83.png)
+
 <br/>
 <br/>
 
 ## ✅ 시간별 그래프UI 구현
 
-<img src="https://user-images.githubusercontent.com/87900492/194771032-89b84d0d-efd9-44be-ba59-e5a44b313819.gif" width="150%" height="100%"/>
+<img src="https://user-images.githubusercontent.com/94745558/194779480-60ede9af-3700-4f40-8321-ccbefd6aebd2.gif" width="150%" height="100%"/>
+<br/>
+<br/>
+
+## ✅ 데이터 csv export 구현
+
+<img src="https://user-images.githubusercontent.com/94745558/194779781-2b5fef41-9e30-468e-91f0-ebf9dc207db0.gif" width="150%" height="100%"/>
 <br/>
 <br/>
 
 ## ✅ 캘린더 UI 구현
 
-<img src="https://user-images.githubusercontent.com/87900492/194771035-b2733349-22d4-4d63-9f65-2851cb0bd6b3.gif" width="150%" height="100%"/>
+<img src="https://user-images.githubusercontent.com/94745558/194779592-89f4eb3b-9a1f-489a-a214-eb91ad47869e.gif" width="150%" height="100%"/>
 <br/>
 <br/>
 
@@ -150,7 +157,7 @@ npm run dev
 
 ## ✅ 그래프 반응형UI 구현
 
-<img src="https://user-images.githubusercontent.com/87900492/194771029-23f51b58-f44c-4635-b1cc-ed9570135b85.gif" width="150%" height="100%"/>
+<img src="https://user-images.githubusercontent.com/94745558/194780134-5fc74815-936a-42ad-be1c-c0e2bd312b8f.gif" width="150%" height="100%"/>
 <br/>
 <br/>
 
